@@ -1,27 +1,22 @@
 body {
     display: flex;
-    flex-direction: column; 
+    flex-direction: column; /* Direção das partes na vertical */
     margin: 0;
     height: 100vh;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .parte {
     flex: 1; 
     display: flex; 
     justify-content: center; 
-    align-items: center;
-    font-size: 60px; 
-    color: black; 
+    font-size: 24px; 
+    color: white; 
 }
 
 .parte1 {
     background-color: #f1c40f;
 }
 
-.parte2 {
-    background-color: #e67e22;
-}
 
-.parte3 {
-    background-color: #e74c3c;
-}
+
