@@ -1,17 +1,17 @@
 body {
     display: flex;
-    flex-direction: column; /* Direção das partes na vertical */
+    flex-direction: column; 
     margin: 0;
     height: 100vh;
 }
 
 .parte {
-    flex: 1; /* Cada parte ocupa uma fração igual do espaço */
-    display: flex; /* Habilita flexbox dentro de cada parte */
-    justify-content: center; /* Centraliza horizontalmente */
-    align-items: center; /* Centraliza verticalmente */
-    font-size: 24px; /* Tamanho da fonte */
-    color: white; /* Cor do texto */
+    flex: 1; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    font-size: 60px; 
+    color: black; 
 }
 
 .parte1 {
