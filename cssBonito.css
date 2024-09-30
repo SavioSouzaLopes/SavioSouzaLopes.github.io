@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    flex-direction: column; /* Direção das partes na vertical */
+    margin: 0;
+    height: 100vh;
+}
+
+.parte {
+    flex: 1; /* Cada parte ocupa uma fração igual do espaço */
+    display: flex; /* Habilita flexbox dentro de cada parte */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    font-size: 24px; /* Tamanho da fonte */
+    color: white; /* Cor do texto */
+}
+
+.parte1 {
+    background-color: #f1c40f;
+}
+
+.parte2 {
+    background-color: #e67e22;
+}
+
+.parte3 {
+    background-color: #e74c3c;
+}
