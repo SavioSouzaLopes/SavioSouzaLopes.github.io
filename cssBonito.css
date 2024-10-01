@@ -6,15 +6,12 @@ body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.parte {
+.Inicial {
     flex: 1; 
     display: flex; 
     justify-content: center; 
     font-size: 24px; 
     color: white; 
-}
-
-.parte1 {
     background-color: #f1c40f;
 }
 
